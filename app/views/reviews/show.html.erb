@@ -1,0 +1,9 @@
+<div class='review'>
+  <div class='review_details'>
+    <h1><%= @review.rating %></h1>
+  </div>
+
+  <div class='review-content'><%= @review.content %></div>
+</div>
+
+<%= link_to "Back to list", reviews_path %>
